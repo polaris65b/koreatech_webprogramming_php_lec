@@ -1,12 +1,22 @@
 <?php
-    $file_name = "lesson6_txt.txt";
-    $content = file_get_contents($file_name);    
-    $char_count = strlen($content); 
+    $count = 0;
+    $fp = fopen("lesson6_txt.txt", "r") or die("파일을 열 수 없습니다！");
+    while( !feof($fp) ){
+        $arr = fgets($fp);
+        $arr = preg_replace("/\s+/", "\n", $arr);
+        $count += mb_strlen($arr);
+    }
+    echo"text 글자수 (공백포함) : $count 자";
+    fclose($fp);
+    echo"<br>";
 
-    echo "text 글자수 (공백 포함) : $char_count 자 <br>";
-
-    $content = str_replace(' ', '', $content); 
-    $char_count = strlen($content);       
-
-    echo "text 글자수 (공백 제거) : $char_count 자 <br>";
+    $count = 0;
+    $fp = fopen("lesson6_txt.txt", "r") or die("파일을 열 수 없습니다！");
+    while( !feof($fp) ){
+        $arr = fgets($fp);
+        $arr = preg_replace("/\s+/", "", $arr);
+        $count += mb_strlen($arr);
+    }
+    echo"text 글자수 (공백제외) : $count 자";
+    fclose($fp);
 ?>

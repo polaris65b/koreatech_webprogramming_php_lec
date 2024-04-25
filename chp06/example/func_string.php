@@ -14,7 +14,7 @@
     $tel3 = substr($tel, 9, 9); // 아홉 번째 문자에서 4개의 문자 가져오기
     echo "$tel <br>";
 
-    $phone = explode("-", $tel) // 하이픈(-)을 기준으로 문자열 분리
+    $phone = explode("-", $tel); // 하이픈(-)을 기준으로 문자열 분리
 
     echo "전화번호 : $phone[0] $phone[1] $phone[2] <br>";
 ?>
