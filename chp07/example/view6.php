@@ -4,7 +4,7 @@
         <link href="style.css" rel = "stylesheet">
     </head>
     <?php
-        $eamil1 = $_POST["email1"];
+        $email1 = $_POST["email1"];
         $email2 = $_POST["email2"];
     ?>
     <body>
