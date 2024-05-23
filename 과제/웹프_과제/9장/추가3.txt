@@ -1,0 +1,9 @@
+alter table TEAM add Zip_code char(5);
+
+alter table TEAM add homepage varchar(50);
+
+alter table TEAM drop fax;
+
+alter table TEAM rename team_k_league;
+
+desc team_k_league;

@@ -1,0 +1,12 @@
+create table TEAM (
+  Team_id char(3),
+  Region_name varchar(8),
+  Team_name varchar(40),
+  E_Team_name varchar(50),
+  ORIG_YYYY char(4),
+  Stadium_id char(3),
+  address varchar(80),
+  Area_num varchar(3),
+  tel varchar(10),
+  fax varchar(10)
+  );

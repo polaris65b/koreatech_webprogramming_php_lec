@@ -1,0 +1,15 @@
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('D03', '전주월드컵경기장', 'K05', 28000, '전북 전주시 덕진구 반월동 763-1', '063', '273-1763');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('B02', '성남종합운동장', 'K08', 27000, '경기도 성남시 분당구 야탑동 486', '031', '753-3956');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('C06', '포항스틸야드', 'K03', 25000, '경북 포항시 남구 괴동 1', '054', '282-2002');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('D01', '광양전용경기장', 'K07', 20009, '전남 광양시 금호동 700', '061', '792-5600');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('B05', '서울월드컵경기장', 'K09', 66806, '서울특별시 마포구 난지도길 66', '002', '2128-2973');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('B01', '인천월드컵경기장', 'K04', 35000, '인천광역시 남구 문학동 482', '031', '666-0496');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('C05', '창원종합운동장', 'K11', 27085, '경남 창원시 두대동 145', '055', '6644-8468');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('C04', '울산문수경기장', 'K01', 46102, '울산광역시 남구 옥산 산5', '052', '220-2468');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('D02', '대전월드컵경기장', 'K10', 41000, '대전광역시 유성구 노은동 270', '042', '252-2002');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('B04', '수원월드컵경기장', 'K02', 50000, '수원시 팔달구 우만1동 228번지', '031', '259-2150');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('A02', '광주월드컵경기장', 'K12', 40245, '광주광역시 서구 풍암동 423-2', '062', '2468-8642');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('C02', '부산아시아드경기장', 'K06',30000, '부산광역시 서구 서대신동 3가 210번지', '051', '247-5771');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('A03', '강릉종합경기장', 'K13', 33000, '강원 강릉시 교동 산58', '033', '459-3631');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('A04', '제주월드컵경기장', 'K14', 42256, '제주 서귀포시 법환동', '064', '3631-2460');
+insert into STADIUM (Stadium_id, Stadium_name, Hometeam_id, Seat_count, Address, Area_num, tel) values ('A05', '대구월드컵경기장', 'K15', 66422, '대구광역시 수성구 대흥동 504', '053', '602-2011');
